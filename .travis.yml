@@ -6,4 +6,5 @@ elixir:
 env:
   - MIX_ENV=test
 script:
-  - mix do deps.get, compile --warnings-as-errors, test
+  - mix deps.get
+  - mix test
