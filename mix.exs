@@ -1,9 +1,9 @@
-defmodule MyApp.Dummy do
+defmodule Dummy.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :dummy_app,
+      app: :dummy,
       version: "1.0.0"
     ]
   end
