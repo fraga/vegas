@@ -1,0 +1,10 @@
+defmodule MyApp.Dummy do
+  use Mix.Project
+
+  def project do
+    [
+      app: :dummy_app,
+      version: "1.0.0"
+    ]
+  end
+end
