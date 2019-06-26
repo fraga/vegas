@@ -1,11 +1,5 @@
-language: elixir
-
-elixir: '1.8.2'
-
-otp_release:
-  - 22.0
-
-script:
-  - cd card
-  - mix deps.get
-  - mix test
+before_install:
+  - sudo apt-get update
+  - sudo apt-get install esl-erlang
+  - sudo apt-get install elixir
+  - elixir --version
